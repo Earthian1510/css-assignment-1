@@ -1,0 +1,177 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding-inline-start: 0;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.btn-secondary{
+  border: 1px solid white;
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-img{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.hero-text{
+  color: lightgray;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.py-5{
+  padding-block: 5rem;
+}
+
+.d-flex{
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.img-xxm{
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.img-md{
+  width: 600px;
+  border-radius: 5px;
+}
+
+.card-sm{
+  max-width: 400px ;
+}
+
+.card-md{
+  max-width: 600px ;
+}
+
+.img-sm{
+  width: 400px;
+  border-radius: 5px;
+}
+
+.img-lg{
+  width: 800px;
+  border-radius: 5px;
+}
+
+.container-flex{
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.container-sm{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: dimgray;
+}
+
+.container-sm p{
+  margin-block: 0;
+  margin-top: 5px;
+}
+
+.text-black{
+  color: black;
+}
+
+section{
+  padding: 2rem;
+}
+
+.container-column{
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.container-column-1{
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-column-1 h3{
+  color: blue;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.container-column-1 h2{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.container-column h2{
+   color: blue;
+   text-transform: uppercase;
+   font-weight: 500;
+   margin-bottom: 0;
+}
+
+.container-column h1{
+  font-size: 2.1rem;
+  margin-top: 5px;
+}
+
+.container-column-1 p{
+  color: dimgray;
+  font-size: 1rem;
+}
+
+.container-column p{
+  color: dimgray;
+  font-size: 1.1rem;
+  max-width: 300px;
+}
+
+.mt-2{
+  margin-top: 2rem;
+}
